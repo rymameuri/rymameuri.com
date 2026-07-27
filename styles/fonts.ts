@@ -1,20 +1,26 @@
-import { Inter, JetBrains_Mono, Playfair_Display } from "next/font/google";
+import {
+  DM_Sans,
+  Fraunces,
+  Space_Mono,
+} from "next/font/google";
 
-export const inter = Inter({
+export const fraunces = Fraunces({
   subsets: ["latin"],
+  weight: ["400", "600", "700"],
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-fraunces",
 });
 
-export const playfair = Playfair_Display({
+export const dmSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["700"],
+  weight: ["400", "500", "600"],
   display: "swap",
-  variable: "--font-playfair",
+  variable: "--font-dm-sans",
 });
 
-export const jetbrainsMono = JetBrains_Mono({
+export const spaceMono = Space_Mono({
   subsets: ["latin"],
+  weight: ["400", "700"],
   display: "swap",
-  variable: "--font-jetbrains",
+  variable: "--font-space-mono",
 });

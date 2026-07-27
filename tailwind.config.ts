@@ -9,24 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#0C0C0C",
-        surface: "#141414",
-        border: "#222222",
-        primary: "#F0EDE8",
-        secondary: "#888888",
-        accent: "#C8A97E",
-        "accent-hover": "#E2C9A0",
+        background: "#FAF8F5",
+        foreground: "#403D3D",
+        muted: "#EBE8E3",
+        border: "#E8E4DE",
+        primary: {
+          DEFAULT: "#724538",
+          foreground: "#FAF8F5",
+        },
+        "thread-build": "#724538",
+        "thread-research": "#403D3D",
+        "thread-craft": "#A67C6F",
+        "accent-gold": "#B8A070",
       },
       fontFamily: {
-        inter: ["var(--font-inter)", "system-ui", "sans-serif"],
-        playfair: ["var(--font-playfair)", "Georgia", "serif"],
-        mono: ["var(--font-jetbrains)", "monospace"],
-      },
-      maxWidth: {
-        content: "1100px",
-      },
-      letterSpacing: {
-        tight: "-0.02em",
+        fraunces: ["var(--font-fraunces)", "Georgia", "serif"],
+        sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-space-mono)", "monospace"],
       },
     },
   },

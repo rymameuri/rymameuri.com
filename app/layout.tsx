@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
-import { inter, jetbrainsMono, playfair } from "@/styles/fonts";
+import { dmSans, fraunces, spaceMono } from "@/styles/fonts";
 import "@/styles/globals.css";
-import CustomCursor from "@/components/CustomCursor";
 
 const description =
-  "I'm a junior at Carnegie Mellon University Qatar studying Information Systems with concentrations in Cybersecurity and Data Science. I build things at the intersection of AI, security, and emerging tech — from fintech startups to blockchain platforms to immersive galleries.";
+  "I refuse to pick a lane. My work weaves together building, research, and craft—Trajekt, IX Lab, Women in AI Qatar, and more.";
 
 export const metadata: Metadata = {
-  title: "Rym Aicha Ameuri — Cybersecurity & AI",
+  title: "Rym Aicha Ameuri — Woven Threads",
   description,
   openGraph: {
-    title: "Rym Aicha Ameuri — Cybersecurity & AI",
+    title: "Rym Aicha Ameuri — Woven Threads",
     description,
     type: "website",
     locale: "en_US",
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rym Aicha Ameuri — Cybersecurity & AI",
+    title: "Rym Aicha Ameuri — Woven Threads",
     description,
   },
 };
@@ -31,9 +30,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${playfair.variable} ${jetbrainsMono.variable} antialiased`}
+        className={`${fraunces.variable} ${dmSans.variable} ${spaceMono.variable} antialiased`}
       >
-        <CustomCursor />
         {children}
       </body>
     </html>
