@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pb-32 pt-40">
@@ -37,17 +35,6 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
-        <div className="mb-6 flex justify-center sm:mb-8">
-          <Image
-            src="/star-patch.png"
-            alt=""
-            width={88}
-            height={88}
-            className="h-16 w-16 object-contain sm:h-20 sm:w-20"
-            priority
-          />
-        </div>
-
         <p className="font-fraunces mb-4 text-2xl font-semibold tracking-tight text-foreground sm:mb-6 sm:text-3xl md:text-4xl">
           Rym Aicha Ameuri
         </p>
