@@ -18,6 +18,12 @@ export default function Header() {
             About
           </a>
           <a
+            href="#teaching"
+            className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
+          >
+            Teaching
+          </a>
+          <a
             href="#work"
             className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
           >
