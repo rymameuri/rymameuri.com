@@ -12,6 +12,12 @@ export default function Header() {
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
           <a
+            href="#education"
+            className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
+          >
+            Education
+          </a>
+          <a
             href="#about"
             className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
           >

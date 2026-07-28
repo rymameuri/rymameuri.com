@@ -50,7 +50,7 @@ export default function Hero() {
           <span className="font-semibold text-thread-build">building</span>,{" "}
           <span className="font-semibold text-thread-research">research</span>, and{" "}
           <span className="font-semibold text-thread-craft">craft</span>. Not three
-          separate paths—one person, three threads that cross and strengthen each
+          separate paths: one person, three threads that cross and strengthen each
           other.
         </p>
 

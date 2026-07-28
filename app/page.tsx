@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Teaching from "@/components/Teaching";
 import Work from "@/components/Work";
+import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <main className="pt-16">
         <Hero />
+        <Education />
         <About />
         <Teaching />
         <Work />
