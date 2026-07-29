@@ -34,6 +34,16 @@ const PROJECTS: Project[] = [
     year: "2026–Present",
   },
   {
+    id: "mytartan",
+    name: "MyTartan",
+    role: "Builder — IX Lab, CMU-Q",
+    description:
+      "AI assistant for CMU-Q students who keep getting handed systems made for Pittsburgh. Focused on trustworthy retrieval — admitting what it doesn't know instead of guessing confidently.",
+    threads: ["build", "research", "craft"],
+    tags: ["AI", "Campus", "CMU-Q", "Trust", "Retrieval"],
+    year: "2026–Present",
+  },
+  {
     id: "women-in-ai",
     name: "Women in AI — Qatar Chapter",
     role: "Founding Team, Communications Director",

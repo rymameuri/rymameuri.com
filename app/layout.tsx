@@ -3,7 +3,7 @@ import { dmSans, fraunces, spaceMono } from "@/styles/fonts";
 import "@/styles/globals.css";
 
 const description =
-  "I refuse to pick a lane. My work weaves together building, research, and craft—Trajekt, IX Lab, Women in AI Qatar, and more.";
+  "I refuse to pick a lane. I build AI for people who usually get left out of it — Arab and Muslim users across MENA. Trajekt, MyTartan, IX Lab, and more.";
 
 export const metadata: Metadata = {
   title: "Rym Aicha Ameuri — Woven Threads",
