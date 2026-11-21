@@ -36,6 +36,12 @@ export default function Header() {
             Work
           </a>
           <a
+            href="#demos"
+            className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
+          >
+            Demos
+          </a>
+          <a
             href="#contact"
             className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
           >

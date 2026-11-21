@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Teaching from "@/components/Teaching";
 import Work from "@/components/Work";
+import Demos from "@/components/Demos";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Teaching />
         <Work />
+        <Demos />
         <Contact />
       </main>
     </div>
